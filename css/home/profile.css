@@ -1,0 +1,35 @@
+.profile-bg {
+  width: 100%;
+  background-color: var(--col-8);
+  padding: 20px;
+}
+.profile-container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid var(--col-1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.profile-conteudo {
+  display: flex;
+  justify-content: center;
+}
+#profile {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: left center;
+}
+.profile-text {
+  padding: 20px;
+}
+.profile-text li {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .profile-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

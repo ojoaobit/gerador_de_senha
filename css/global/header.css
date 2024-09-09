@@ -1,0 +1,13 @@
+.header-bg {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-bottom: 1px solid var(--col-2);
+
+  background-color: var(--col-0);
+  text-align: center;
+}
+.header-container {
+  max-width: 700px;
+  margin: 0 auto;
+}

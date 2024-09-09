@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Gerador de senhas, password generator">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Password Generator</title>
+</head>
+
+<body>
+
+  <header class="header-bg">
+    <div class="header-container">
+      <a href="index.html">
+        <h1 class="sm-bold col-3">Pa$$w*rd</h1>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="profile-bg">
+      <div class="profile-container">
+        <div class="profile-conteudo">
+          <img src="./assets/img/password-profile.webp" id="profile" alt="imagem perfil">
+          <div class="profile-text">
+            <h1 class="col-3 poppins-bold">Um gerador de <span class="col-5">senhas</span> pra melhorar a <span class="col-4">segurança</span> das suas contas.</h1>
+            <ul class="col-3 sm-regular3">
+              <li>* Escolha o tamanho da senha</li>
+              <li>* Sua senha será gerada abaixo</li>
+              <li>* Copie a senha que foi gerada</li>
+              <li>* Pronto, + segurança em segundos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-bg">
+      <div class="form-container">
+        <p class="col-3 poppins-reg2"><span class="poppins-bold col-3">Tamanho da senha:</span> <span id="valor"></span> caracteres.</p>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15">
+
+        <button id="button" class="col-3 poppins-reg2 button-cta" onclick="generatePassword()">Gerar Senha</button>
+      </div>
+    </section>
+
+    <div id="resultado" class="resultado hide">
+      <div class="imgcopy" onclick="copiarSenha()">
+        <img src="./assets/img/icon-copiar.svg" width="26px" height="26px" alt="copiar imagem">
+      </div>
+
+      <span class="col-3 poppins-sb">Senha gerada:</span><br>
+      <span class="password col-3 poppins-reg2" id="password"></span>
+      <div id="mensagem" class="col-5 poppins-reg2" style="display: none;">Senha copiada com sucesso!</div>
+    </div>
+  </main>
+
+  <footer class="footer-bg" id="footer"></footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>

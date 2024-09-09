@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+.sm-regular {
+  font: 400 1rem/1 "Space Mono", monospace;
+}
+.sm-regular2 {
+  font: 400 1.25rem/1.35 "Space Mono", monospace;
+}
+.sm-regular3 {
+  font: 400 1rem/1.1 "Space Mono", monospace;
+}
+
+.sm-bold {
+  font: 700 1.35rem/1.35 "Space Mono", monospace;
+}
+.sm-bold2 {
+  font: 700 1rem/1.1 "Space Mono", monospace;
+}
+.sm-bold3 {
+  font: 700 1.35rem/1.5 "Space Mono", monospace;
+}
+.sm-bold4 {
+  font: 700 1.6rem/1.5 "Space Mono", monospace;
+}
+.sm-bold5 {
+  font: 700 2rem/1.5 "Space Mono", monospace;
+}
+
+.poppins-reg {
+  font: 400 0.875rem/1.3 "Poppins", Helvetica, sans-serif;
+}
+.poppins-reg2 {
+  font: 400 1rem/1.3 "Poppins", Helvetica, sans-serif;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-sb {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+.poppins-sb2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.poppins-sb2-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+.poppins-sb3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,21 @@
+.form-bg {
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+.form-container {
+  margin: 0;
+  display: grid;
+}
+#button {
+  margin-top: 20px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--col-4);
+}
+
+@media (max-width: 710px) {
+  .form-container {
+    margin: 20px;
+  }
+}

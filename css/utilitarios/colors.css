@@ -1,0 +1,27 @@
+:root {
+  --col-0: #111111; /* BORDER -BG */
+  --col-1: #242424; /* BORDER */
+  --col-2: #414141; /* DESCRICAO */
+  --col-3: #eeeef5; /* DESCRICAO 2 */
+  --col-4: #5485d6; /* PRIMARIA */
+  --col-5: #f8cf75; /* PRIMARIA 2 */
+}
+
+.col-0 {
+  color: var(--col-0);
+}
+.col-1 {
+  color: var(--col-1);
+}
+.col-2 {
+  color: var(--col-2);
+}
+.col-3 {
+  color: var(--col-3);
+}
+.col-4 {
+  color: var(--col-4);
+}
+.col-5 {
+  color: var(--col-5);
+}
