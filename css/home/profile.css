@@ -21,15 +21,18 @@
   object-position: left center;
 }
 .profile-text {
-  padding: 20px;
+  padding: 20px 10px;
 }
 .profile-text li {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
   .profile-conteudo {
     display: flex;
     flex-wrap: wrap;
+  }
+  .profile-text {
+    padding: 10px;
   }
 }

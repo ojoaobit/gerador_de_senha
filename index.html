@@ -29,8 +29,8 @@
             <ul class="col-3 sm-regular3">
               <li>* Escolha o tamanho da senha</li>
               <li>* Sua senha será gerada abaixo</li>
+              <li>* A senha terá 1 numero e 1 caractere especial</li>
               <li>* Copie a senha que foi gerada</li>
-              <li>* Pronto, + segurança em segundos</li>
             </ul>
           </div>
         </div>
@@ -39,6 +39,7 @@
 
     <section class="form-bg">
       <div class="form-container">
+        <br>
         <p class="col-3 poppins-reg2"><span class="poppins-bold col-3">Tamanho da senha:</span> <span id="valor"></span> caracteres.</p>
         <input id="slider" class="slider" type="range" min="5" max="25" value="15">
 
@@ -51,9 +52,11 @@
         <img src="./assets/img/icon-copiar.svg" width="26px" height="26px" alt="copiar imagem">
       </div>
 
-      <span class="col-3 poppins-sb">Senha gerada:</span><br>
-      <span class="password col-3 poppins-reg2" id="password"></span>
-      <div id="mensagem" class="col-5 poppins-reg2" style="display: none;">Senha copiada com sucesso!</div>
+      <div class="area-senha">
+        <span class="col-3 poppins-sb">Senha gerada:</span><br>
+        <span class="password col-3 poppins-reg2" id="password"></span>
+        <div id="mensagem" class="col-5 poppins-reg2" style="display: none;">Senha copiada com sucesso!</div>
+      </div>
     </div>
   </main>
 

@@ -5,19 +5,19 @@
   max-width: 700px;
   margin: 20px auto;
   text-align: center;
-  padding: 0 0 10px 0;
   border: 1px solid var(--col-1);
-  /* border-radius: 8px; */
+}
+.area-senha {
+  padding: 20px 10px;
 }
 #resultado .imgcopy {
   width: 100%;
   background-color: var(--col-1);
   cursor: pointer;
   padding: 10px;
-  margin-bottom: 10px;
 }
 .imgcopy img {
-  opacity: 0.5;
+  opacity: 0.4;
   filter: invert();
   display: flex;
   margin-left: auto;
